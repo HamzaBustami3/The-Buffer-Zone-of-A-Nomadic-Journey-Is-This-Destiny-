@@ -1,0 +1,71 @@
+.coolfancy{
+    text-emphasis-color: beige;
+    text-decoration: wavy;
+    font-family: cursive;
+}
+.headtext{
+    text-emphasis-color: beige;
+    text-decoration: wavy;
+    font-family: cursive;
+}
+body {
+    background-color: url("c2680c3d702ff6c1ee658e4dab4b5ab8.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paragraphmain {
+    float: right;
+    padding: 10px;
+    margin-left:10px;
+    box-shadow:#333;
+    z-index: 1;
+    width: 500px;
+    height: auto;
+    font-size: 14px;
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 800;
+   overflow-x: auto;
+  }
+  
+  .fancyheading {
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: italic;
+  }
+                   
+  .composerpage {
+    background-color: rgb(232, 221, 212);
+  }
+  .lowercontainer {
+   float:left;
+   
+    
+  
+  }
+  
+  .seccomposerimg {
+    float:left;
+    width:400px;
+    height: auto;
+    
+  }
+  
+  .secparagraphmain {
+    float: left;
+   
+    box-shadow:#333;
+  
+    width: 400px;
+    height: fit-content;
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 800;
+  }
+  
+  .composerpageinnit {
+    margin-left:100px;
+  }
