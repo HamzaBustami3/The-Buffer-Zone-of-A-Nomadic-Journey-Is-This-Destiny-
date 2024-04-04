@@ -9,12 +9,270 @@
     font-family: cursive;
 }
 body {
-    background-color: url("c2680c3d702ff6c1ee658e4dab4b5ab8.jpg") ;
+    background-image: url("c2680c3d702ff6c1ee658e4dab4b5ab8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;    
+    
+    scroll-behavior:smooth;
+    scroll-snap-type: y mandatory;
+}
+.container {
+  margin-left: 100px;
+}
+.secpho {
+  z-index:2;
+}
+h1 {
+  z-index:3;
+}
+.back {
+  opacity: 0.5;
+}
+.cent{
+  margin: 100px;
+  place-content: center;
+  width: 700px;
+}
+.under {
+  width: 800px;
+  position: center;
+  background-blend-mode: difference;
+}
+.firsts {
+  
+}
+.backgroundpages {
+    
 }
 .paragraphmain {
+    float: right;
+    padding: 10px;
+    margin-left:10px;
+    box-shadow:#333;
+    z-index: 1;
+    width: 500px;
+    height: auto;
+    font-size: 14px;
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 800;
+   overflow-x: auto;
+  }
+  
+  .fancyheading {
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: italic;
+  }
+                   
+  .composerpage {
+   
+  }
+  .lowercontainer {
+   float:left;
+   
+    
+  
+  }
+  
+  .seccomposerimg {
+    float:left;
+    width:400px;
+    height: auto;
+    
+  }
+  
+  .secparagraphmain {
+    float: left;
+   
+    box-shadow:#333;
+  
+    width: 400px;
+    height: fit-content;
+    text-decoration: wavy;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 800;
+  }
+  .secpho {
+    width:600px;
+  }
+  
+  .wrapper .sidebar{
+    background-image: url(night\ sky\ background.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 10px 0;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .sidebar .profile{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .wrapper .sidebar .profile img{
+    display: block;
+      border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+  }
+  
+  .wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 12px;
+  }
+  
+  .wrapper .sidebar ul li a{
+    display: block;
+    padding: 7px 7px;
+    border-bottom: 1px solid grey;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    content: fit;
+  }
+  
+  .wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+  }
+  
+   h1, h2, h3 {
+    text-shadow: 1px 1px 4px black;
+   }
+   .containerr {
+    scroll-snap-type: mandatory;
+    margin-left: 100px;
+   }
+  
+  .wrapper .sidebar ul li a:hover,
+  .wrapper .sidebar ul li a.active{
+    color: white;
+  
+    background: grey;
+      border-right: 2px solid;
+  }
+  
+  .wrapper .sidebar ul li a:hover .icon,
+  .wrapper .sidebar ul li a.active .icon{
+    background-color: grey
+  }
+  
+  .wrapper .sidebar ul li a:hover:before,
+  .wrapper .sidebar ul li a.active:before{
+    display: block;
+  }
+  
+  .wrapper .section{
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper .section .top_navbar{
+    background-image: url(background\ design\ for\ classical\ music.jpg);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+   
+  }
+  
+  .wrapper .section .top_navbar .hamburger a{
+    font-size: 28px;
+    
+    color: #f4fbff;
+  }
+  
+  .wrapper .section .top_navbar .hamburger a:hover{
+    color: #a2ecff;
+  }
+  
+   .wrapper .section .container{
+    margin: 0px;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 0px;
+    line-height: 20px;
+  }
+  
+  body.active .wrapper .sidebar{
+    left: -225px;
+  }
+  
+  body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .bighead {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 1292px;
+  }
+  
+  
+ .container{
+  margin-left: 100px;
+  height: 4000px;
+
+ }
+ 
+ 
+ul{
+  list-style: none;
+  
+}
+
+  .smalltext {
+    font-size:medium;
+    font-weight: bold;
+  
+  }
+  
+  .conta{
+    border-style: groove;
+    margin: 100px;
+    border-width: 15px;
+
+  }
+  .contahead{
+   z-index: 1;
+   margin-top: 10px;
+   font-weight: bolder;
+  }
+  .contabod{
+    font-style:italic ;
+    
+  }
+  .imgmain {
+   display: flex;
+   float: left;
+   margin: right 200px ;
+  
+  }
+  .paragraphmain {
     float: right;
     padding: 10px;
     margin-left:10px;
@@ -68,4 +326,137 @@ body {
   
   .composerpageinnit {
     margin-left:100px;
+  }
+  
+  body {
+      overflow-x: hidden;
+    
+  }
+  .samplez {
+    font-family: cursive;
+    text-decoration: wavy;
+    float:left;
+    margin-top: 100;
+    margin-bottom: 100;
+  
+  
+  
+  }
+  
+  
+  <!--ChatGPT-->
+  .endingparagraph {
+    font-family: "Georgia", serif; /* Elegant serif font */
+    font-size: 18px; /* Appropriate font size for readability */
+    color: #333; /* Dark color for a somber mood */
+    line-height: 1.4; /* Adequate line height for readability */
+    letter-spacing: 0.05em; /* Slightly increased letter spacing for elegance */
+    text-align: center; /* Centered text for a balanced appearance */
+    text-decoration: none; /* No text decoration for simplicity */
+    font-style: italic; /* Italicized text for a touch of melancholy */
+    opacity: 0.8; /* Slightly reduced opacity for a faded look */
+  }
+  
+  .listz {
+    font-family: cursive;
+    text-decoration: wavy;
+    font-size: 18px;
+    opacity:0.7;
+  }
+  body > div{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+  .workscite {
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-style: italic;
+  }
+  section {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+  }
+  .quote {
+    font-style: italic; 
+    font-family: cursive;
+    font-size: small;
+  }
+  .section1{
+    background-color: antiquewhite;
+    scroll-snap-type: y mandatory;
+   
+    height: 100vh;
+
+    height:fit-content;
+  }
+  .section2{
+    background-color: lightseagreen;
+
+    height: fit-content;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+
+    height:fit-content;
+    
+  }
+  .section3{
+    background-color: blueviolet;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+
+    height:fit-content;
+ 
+
+  }
+  .section4{
+    background-color: lightcoral;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+
+    height: fit-content;
+   
+  
+  }
+  .section5{
+    background-color: lightskyblue;
+    scroll-snap-type: y mandatory;
+    
+
+    height: 100vh;
+ 
+    height: fit-content
+  }
+  .section6{
+    background-color:lightcoral;
+    scroll-snap-type: y mandatory;
+    
+    height: 100vh;
+
+
+    height:fit-content;
+  }
+  * {
+    scroll-behavior: smooth;
+  }
+  .scroll-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  .seccont {
+    margin-left:50px;
+  
+  }
+  .flag {
+    z-index: 1;
+    width:30px;
+  }
+  .side{
+    place-content:right;
+    float:right;
+    width:30%
   }

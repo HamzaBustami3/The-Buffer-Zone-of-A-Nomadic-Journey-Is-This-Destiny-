@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zooming Parallax Scrolling Effect with Image Movement</title>
+  <!--FineGap-Youtube-->
+  <link rel="shortcut icon" type="x-icon" href="Untitled.png">
+
+  <!--bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+  <!--w3schools-->
+  <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="Contact.html">Contact Us</a>
+      <a href="https://www.collateralrepairproject.org">CRP</a>
+      <a class="active" href="about.html">About</a>
+    </div>
+<style>
+    .topnav {
+  
+  background-color: #333;
+  overflow: hidden;
+  top: 0;
+  width: 1292px;
+ 
+  
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 0px;
+ }
+ 
+ /* Change the color of links on hover */
+ .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+ }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+  .parallax-container {
+    height: 2000px; /* Adjust to the height of your long background image */
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("IMG_0388.JPG"); /* Replace 'your-background-image.jpg' with your image path */
+    background-size: cover;
+ 
+    background-position: center;
+    overflow: hidden;
+  }
+  .parallax-content {
+    position: relative;
+    margin:100px;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(3, 0, 0);
+
+    opacity:1;
+    font-size: 24px;
+    margin-top: 200px; /* Adjust as needed to control the initial position of the content */
+  }
+  .mission{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    word-spacing: normal;
+  }
+</style>
+</head>
+<body>
+<div class="parallax-container">
+  <div class="parallax-content">
+    <h1 class = "fancyheading">What is the Purpose of this Website?</h1>
+    <p class="mission"> Our mission with this website is to present the importance of livelihood and mental wellbeing in the lives of refugees. It's a common idea that many a-time refugees lack basic survival needs and thus are in a constant state of survival, but in Jordan especially, 45% of refugees are considered "food-poor" and live on 3 jd a day (Tayseer). This means most of their money is used on survival needs with a complete and utter lack of mental health improvement and academic oppurtunities. This leaves the hopeful and ambitious young minds to live dreamless lives in which basic and fundamental needs and rights are non-existant. during our team's meeting with Collateral Repair Project Refugees, We got to know refugees that could not find an education anywhere, afford medication, find refuge in another country, afford books, afford sports gear, afford musical instruments, or even find a job. Despite the fact that they are considered "lucky" and have the significant support of CRP's education and relative social haven, it still cannot suffice the full integration of them into systems of financial, emotional, and physical safety. CRP does a fantastic job with easing the hardships of refugees and spreads a noble and righteous cause in our ever-dimming societal structures and sustainable humanity. We made this multi-media website just to show a glimse in the lives of a handful of refugees and the buffer zones they encounter in Jordan. This highlights the sheer necessity of CRP and for us privelaged communities to be constant monetary supporters.</p>
+
+    <div class= "bibliography">
+      <h2> Works Cited</h2>
+      <p>“Soccer Eases Life in Jordan Refugee Camp, until Goal Dispute.” Al Arabiya, 2020, english.alarabiya.net/perspective/features/2015/05/12/Soccer-eases-life-in-Jordan-refugee-camp-until-goal-dispute.
+       Ex. in Zaatari refugee camp alone 85,000 refugees play football and use it to ease life.
+        
+        “Zajno | the Power of Sound.” Zajno | the Power of Sound, thepowerofsound.zajno.com/. Accessed 27 Mar. 2024.
+       
+        Graphics, Vector. “World Refugee Day Stock Illustration,” ISTOCK, 20 May 2022, www.istockphoto.com/vector/world-refugee-day-gm1399696610-453491711.
+
+        https://www.vectorstock.com/royalty-free-vector/refugee-icon-on-white-background-simple-element-vector-28221456
+            
+        Tayseer, Rana. “Report Gauges Food Poverty among Refugees in Jordan.” Jordan Times, 15 Mar. 2023, jordantimes.com/news/local/report-gauges-food-poverty-among-refugees-jordan#:~:text=Using%20the%20%245.5%20international%20poverty. Accessed 31 Mar. 2024.
+      
+        UNHCR. “Jordan Thematic Factsheet: Education - Jordan | ReliefWeb.” Reliefweb.int, 22 Feb. 2024, reliefweb.int/report/jordan/jordan-thematic-factsheet-education. Accessed 2 Apr. 2024.</p>
+  </div>
+</div>
+<!-- Add more content if needed -->
+</body>
+</html>
+
+      
